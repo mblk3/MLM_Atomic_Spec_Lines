@@ -17,7 +17,7 @@ st.subheader("Version 1.0")
 #joblibFile = open(url, 'rb')
 
 #model = pickle.load(joblibFile)
-model = pd.read_pickle(r'/mount/src/mlm_atomic_spec_lines/classifier_model.pkl')
+model = pd.read_pickle(r'mlm_atomic_spec_lines/classifier_model.pkl')
 #####################defs here#######################
 
 def getUserImput():
