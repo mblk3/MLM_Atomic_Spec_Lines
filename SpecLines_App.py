@@ -17,7 +17,7 @@ model_filename = "classifier_model.pkl"
 model_path = os.path.join(current_directory, model_filename)
 
 with open(model_path, 'rb') as f:
-    model = pickle.load(f)
+  model = pickle.load(f)
 
 #https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0d19c347146ea1ad17d8/classifier_model.pkl
 #joblibFile = open('code_/classifier_model.pkl', 'rb')
