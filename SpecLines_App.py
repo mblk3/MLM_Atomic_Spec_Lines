@@ -3,10 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle
 import pandas as pd
-import os
+#import os
 
-cwd = os.getcwd()
-st.write(cwd)
+#cwd = os.getcwd()
+#st.write(cwd)
 
 st.title("Automatic Classification of Atomic Spectral Lines")
 st.subheader("Version 1.0")
@@ -17,7 +17,7 @@ st.subheader("Version 1.0")
 #joblibFile = open(url, 'rb')
 
 #model = pickle.load(joblibFile)
-model = pd.read_pickle(r'classifier_model.pkl')
+model = pd.read_pickle(r'/mount/src/classifier_model.pkl')
 #####################defs here#######################
 
 def getUserImput():
