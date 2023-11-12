@@ -7,8 +7,8 @@ import requests
 st.title("Automatic Classification of Atomic Spectral Lines")
 st.subheader("Version 1.0")
 
-#require 'open-uri'
-joblibFile = open("https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0d19c347146ea1ad17d8/classifier_model.pkl")
+#https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0d19c347146ea1ad17d8/classifier_model.pkl
+joblibFile = open("classifier_model.pkl")
 
 #joblibFile = open(url, 'rb')
 
