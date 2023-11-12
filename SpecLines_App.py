@@ -4,7 +4,6 @@ import numpy as np
 import pickle
 import pandas as pd
 import os
-from pathlib import Path
 #cwd = os.getcwd()
 #st.write(cwd)
 
@@ -13,6 +12,7 @@ st.subheader("Version 1.0")
 
 
 current_directory = os.path.dirname(os.path.realpath(__file__))
+st.write(current_directory)
 model_filename = "classifier_model.pkl"
 model_path = os.path.join(current_directory, model_filename)
 
