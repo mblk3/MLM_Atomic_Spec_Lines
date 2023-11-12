@@ -2,18 +2,18 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import requests
+import pandas as pd
 
 st.title("Automatic Classification of Atomic Spectral Lines")
 st.subheader("Version 1.0")
 
 #https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0d19c347146ea1ad17d8/classifier_model.pkl
-joblibFile = open('code_/classifier_model.pkl', 'rb')
+#joblibFile = open('code_/classifier_model.pkl', 'rb')
 
 #joblibFile = open(url, 'rb')
 
-model = pickle.load(joblibFile)
-
+#model = pickle.load(joblibFile)
+model = pd.read_pickle(r'classifier_model.pkl')
 #####################defs here#######################
 
 def getUserImput():
