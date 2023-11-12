@@ -10,8 +10,8 @@ joblibFile = open(raw_url) {|f|
   f.each_line {|line| p line}
 }
 
-st.title("Automatic Classification of Atomic Spectral Lines")
-st.subheader("Version 1.0")
+#st.title("Automatic Classification of Atomic Spectral Lines")
+#st.subheader("Version 1.0")
 
 #joblibFile = open(url, 'rb')
 
