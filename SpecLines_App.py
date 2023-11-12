@@ -8,9 +8,9 @@ url = "https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0
 st.title("Automatic Classification of Atomic Spectral Lines")
 st.subheader("Version 1.0")
 
-joblibFile = open(url, 'rb')
+#joblibFile = open(url, 'rb')
 
-model = pickle.load(joblibFile)
+model = pickle.load(url)
 
 #####################defs here#######################
 
