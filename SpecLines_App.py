@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import pickle
 import pandas as pd
+import os
+
+cwd = os.getcwd()
+st.write(cwd)
 
 st.title("Automatic Classification of Atomic Spectral Lines")
 st.subheader("Version 1.0")
