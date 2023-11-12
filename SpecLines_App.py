@@ -13,15 +13,14 @@ st.subheader("Version 1.0")
 
 
 repo_top = Path(__file__ + "/..").resolve()
-print(repo_top)
 model = pd.read_pickle(repo_top / 'classifier_model.pkl')
+
 #https://github.com/mblk3/MLM_Atomic_Spec_Lines/blob/02f6a04db06b459169ea0d19c347146ea1ad17d8/classifier_model.pkl
 #joblibFile = open('code_/classifier_model.pkl', 'rb')
-
 #joblibFile = open(url, 'rb')
-
 #model = pickle.load(joblibFile)
 #model = pd.read_pickle(r'mlm_atomic_spec_lines/classifier_model.pkl')
+
 #####################defs here#######################
 
 def getUserImput():
